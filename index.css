@@ -1,0 +1,31 @@
+:root{
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --VeryLightGrayishBlue: hsl(236, 33%, 92%);
+    --LightGrayishBlue: hsl(233, 11%, 84%);
+    --DarkGrayishBlue: hsl(236, 9%, 61%);
+    --VeryDarkGrayishBlue: hsl(235, 19%, 35%);
+}
+body{
+    background-color: white;
+}
+.banner{
+    background-image: url("images/bg-desktop-dark.jpg");
+    color:white;
+}
+
+.highlight{
+    background-color: var(--DarkGrayishBlue) !important;
+}
+
+ul li.checked{
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top:10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width:7px;
+}
